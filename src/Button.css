@@ -1,0 +1,117 @@
+/* Layout the buttons and style them. */
+
+/* row 1 */
+#clear {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+    background-color: #8c99aa;
+    
+}
+
+/* row 2 */
+#seven {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #e7edf7;
+}
+
+
+#eight {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #e7edf7;
+}
+
+
+#nine {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #e7edf7;
+}
+
+#divide {
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #8c99aa;
+}
+
+/* row 3 */
+#four {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    background-color: #e7edf7;
+}
+
+#five {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    background-color: #e7edf7;
+}
+
+#six {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    background-color: #e7edf7;
+}
+
+#multiply {
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 1;
+    background-color: #8c99aa;
+
+}
+
+/* row 4 */
+#one {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    background-color: #e7edf7;
+}
+
+#two {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    background-color: #e7edf7;
+}
+
+#three {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+    background-color: #e7edf7;
+}
+
+#subtract {
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    background-color: #8c99aa;
+}
+
+/* row 5 */
+#zero {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+    background-color: #e7edf7;
+}
+
+#decimal {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+    background-color: #e7edf7;
+}
+
+#equals {
+    grid-column: 3 / span 1;
+    grid-row: 5 / span 1;
+    background-color: #4997d0;
+}
+
+#add {
+    grid-column: 4 / span 1;
+    grid-row: 5 / span 1;
+    background-color: #8c99aa;
+}
+
+/* Style each button */
+button {
+    font-size: 2em;
+}

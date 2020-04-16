@@ -3,7 +3,8 @@ import Display from './Display';
 import Button from './Button';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import {add, subtract, multiply, divide, evaluate, clear, append} from './redux/actions'
+import {add, subtract, multiply, divide, evaluate, clear, append} from './redux/actions';
+import './Calculator.css';
 
 const buttonsMap = {
     'zero': 0,
@@ -22,13 +23,12 @@ const buttonsMap = {
     'divide': '/',
     'decimal': '.',
     'equals': '=',
-    'clear': 'clear',
+    'clear': 'AC',
 };
 
 class Calculator extends React.Component {
 
     handleClick = (id) => {
-        // Do something when clicked
         switch (id){
             case 'add':
                 this.props.add();
@@ -70,7 +70,7 @@ class Calculator extends React.Component {
 
     render( ) {
         return (
-            <div id='calculator-container'>
+            <div id='calculator-container' class='container'>
             <Display 
                 input={this.props.input} 
                 output={this.props.output} />
